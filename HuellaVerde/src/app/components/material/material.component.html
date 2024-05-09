@@ -1,1 +1,453 @@
-<p>material works!</p>
+<!-- Primera Sección -->
+<section
+  class="hero-section h-screen flex items-center justify-center relative"
+>
+  <!-- Video de fondo -->
+  <video
+    autoplay
+    muted
+    loop
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+    <source src="assets/video/video-hero-material-2.mp4" type="video/mp4" />
+    <!-- Si el navegador no puede reproducir el video, proporciona una imagen de respaldo -->
+    <img
+      src="tu-imagen.jpg"
+      alt="Video de fondo"
+      class="object-cover w-full h-full"
+    />
+  </video>
+
+  <!-- Contenido del Hero -->
+  <div class="text-center text-white font-poppins relative mx-14 lg:mx-44">
+    <!-- Título -->
+    <h1
+      data-aos="fade-up"
+      class="text-5xl font-bold my-5 lg:text-6xl"
+      id="title-hero"
+    >
+      Explora nuestros Artículos
+    </h1>
+    <!-- Mensaje de Bienvenida -->
+    <p
+      data-aos="fade-up"
+      class="text-lg my-6 font-normal lg:text-xl"
+      id="paragraph-hero"
+    >
+      Sumérgete en nuestra selección de artículos y descubre consejos prácticos
+      y soluciones innovadoras para vivir de manera más sostenible
+    </p>
+    <!-- Contenedor para centrar el botón -->
+    <div data-aos="fade-up" class="flex justify-center">
+      <!-- Llamado a la Acción -->
+      <i
+        class="z-10 mt-4 fas fa-arrow-down animate-bounce text-[15px] text-black p-3 rounded-full bg-white"
+      ></i>
+    </div>
+  </div>
+</section>
+
+<!-- Segunda Sección -->
+<section class="bg-gray-100 py-20">
+  <div class="container mx-auto font-poppins">
+    <!-- Título -->
+    <h2 class="text-3xl font-bold mb-10 text-center mx-16" data-aos="fade-up">
+      Explora nuestros Artículos
+    </h2>
+
+    <!-- Grid de Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Card 1 -->
+      <div class="flex justify-center items-center" data-aos="zoom-out">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">
+                28 ideas para vivir de forma más sotenible en el planeta
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Descubre cómo pequeños cambios en tus hábitos diarios pueden tener
+              un gran impacto en la salud de nuestro planeta.
+            </p>
+            <a
+              target="_blank"
+              href="https://www.nationalgeographic.es/medio-ambiente/2021/04/28-ideas-para-vivir-de-forma-mas-sostenible-en-el-planeta"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div
+        class="flex justify-center items-center"
+        data-aos="zoom-out"
+        data-aos-duration="500"
+      >
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                18 innovaciones para reducir nuestra huella medioambiental
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Conoce las tecnologías emergentes que están cambiando la forma en
+              que interactuamos con el medio ambiente.
+            </p>
+            <a
+              target="_blank"
+              href="https://www.alltech.com/es-es/blog/18-innovaciones-para-reducir-nuestra-huella-medioambiental"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div
+        class="flex justify-center items-center"
+        data-aos="zoom-out"
+        data-aos-duration="550"
+      >
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                30 ejemplos aplicables de reduce, recicla y reutiliza
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Aprende a incorporar los principios de reducir, reciclar y
+              reutilizar en tu vida cotidiana con estos ejemplos prácticos.
+            </p>
+            <a
+              target="_blank"
+              href="https://vidasostenibleencasa.com/30-ejemplos-de-reduce-recicla-y-reutiliza/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div
+        class="flex justify-center items-center"
+        data-aos="zoom-out"
+        data-aos-duration="600"
+      >
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                20 Acciones para Reducir Tu Huella Ecológica
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Explora acciones concretas que puedes tomar para vivir de manera
+              más sostenible.
+            </p>
+            <a
+              target="_blank"
+              href="https://conciencia.eco/acciones-para-reducir-tu-huella-ecologica/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div
+        class="flex justify-center items-center"
+        data-aos="zoom-out"
+        data-aos-duration="650"
+      >
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                7 proyectos innovadores para ciudades más sostenibles
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Descubre cómo las ciudades de todo el mundo están innovando para
+              convertirse en lugar sostenible.
+            </p>
+            <a
+              target="_blank"
+              href="https://sostenibles.org/2021/01/08/7-proyectos-innovadores-para-ciudades-mas-sostenibles/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div
+        class="flex justify-center items-center"
+        data-aos="zoom-out"
+        data-aos-duration="700"
+      >
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Cómo reducir tu huella de carbono
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Obtén consejos prácticos sobre cómo puedes hacer cambios en tu
+              vida diaria para reducir tu huella de carbono y tener un estilo
+              más sostenible.
+            </p>
+            <a
+              target="_blank"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4F772D] rounded-md hover:bg-[#31572C]"
+            >
+              Leer más
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tercera Sección -->
+<section class="flex items-center justify-center bg-white py-16">
+  <!-- Contenedor centrado -->
+  <div class="mx-12 max-w-6xl px-8">
+    <!-- Grid -->
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+      <!-- Primera Columna - Contenido -->
+      <div
+        class="flex flex-col justify-center"
+        data-aos="fade-right"
+        data-aos-duration="400"
+      >
+        <!-- Título -->
+        <h2 class="my-5 font-poppins text-4xl font-bold md:text-5xl">
+          Conservación Ambiental
+        </h2>
+        <!-- Filas de icono y texto -->
+        <div class="my-5 md:text-lg">
+          <!-- Fila 1 -->
+          <div class="mb-5 flex items-center font-poppins font-normal">
+            <i class="fas fa-circle-check mr-3 text-sm text-[#31572C]"></i>
+            <span class="text-[14px]"
+              >Reducción del uso de plásticos y promoción de alternativas
+              reutilizables.</span
+            >
+          </div>
+          <!-- Fila 2 -->
+          <div class="mb-5 flex items-center font-poppins font-normal">
+            <i class="fas fa-circle-check mr-3 text-sm text-[#31572C]"></i>
+            <span class="text-[14px]"
+              >Organización de jornadas de limpieza en áreas naturales.</span
+            >
+          </div>
+          <!-- Fila 3 -->
+          <div class="mb-5 flex items-center font-poppins font-normal">
+            <i class="fas fa-circle-check mr-3 text-sm text-[#31572C]"></i>
+            <span class="text-[14px]"
+              >Implementación de programas de reciclaje y reutilización de
+              materiales.</span
+            >
+          </div>
+          <!-- Fila 4 -->
+          <div class="mb-5 flex items-center font-poppins font-normal">
+            <i class="fas fa-circle-check mr-3 text-sm text-[#31572C]"></i>
+            <span class="text-[14px]"
+              >Participación en proyectos de reforestación y protección de
+              hábitats.</span
+            >
+          </div>
+          <!-- Fila 5 -->
+          <div class="mb-5 flex items-center font-poppins font-normal">
+            <i class="fas fa-circle-check mr-3 text-sm text-[#31572C]"></i>
+            <span class="text-[14px]"
+              >Promoción de la movilidad sostenible y reducción de
+              emisiones.</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Segunda Columna - Video -->
+      <div
+        class="flex items-center justify-center"
+        data-aos="fade-left"
+        data-aos-duration="400"
+      >
+        <!-- Aquí va el reproductor de video -->
+        <video
+          autoplay
+          loop
+          controls
+          muted
+          class="h-auto max-w-full rounded-lg shadow-lg lg:w-96"
+          src="assets/video/video-hero-ambiental.mp4"
+        ></video>
+      </div>
+    </div>
+  </div>
+</section>

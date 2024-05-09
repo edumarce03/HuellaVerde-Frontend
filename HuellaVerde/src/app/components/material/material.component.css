@@ -1,0 +1,25 @@
+/* Estilos para el título */
+#title-hero {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para el párrafo */
+#paragraph-hero {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.animate-bounce {
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
