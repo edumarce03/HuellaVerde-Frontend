@@ -1,1 +1,46 @@
-<p>home works!</p>
+<!-- Sección de Bienvenida con Video de Fondo -->
+<section
+  class="hero-section h-screen flex items-center justify-center relative"
+>
+  <!-- Video de fondo -->
+  <video
+    autoplay
+    muted
+    loop
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+    <source src="assets/video/video-hero-home.mp4" type="video/mp4" />
+    <!-- Si el navegador no puede reproducir el video, proporciona una imagen de respaldo -->
+    <img
+      src="tu-imagen.jpg"
+      alt="Video de fondo"
+      class="object-cover w-full h-full"
+    />
+  </video>
+
+  <!-- Contenido del Hero -->
+  <div class="text-center text-white font-poppins relative mx-14 lg:mx-44">
+    <!-- Título -->
+    <h1 class="text-5xl font-bold mb-4 lg:text-6xl" id="title-hero">
+      ¡Bienvenido a Huella Verde!
+    </h1>
+    <!-- Mensaje de Bienvenida -->
+    <p class="text-lg mb-6 font-normal lg:text-xl" id="paragraph-hero">
+      Descubre cómo puedes reducir tu huella de carbono y vivir de manera más
+      sostenible.
+    </p>
+    <!-- Contenedor para centrar el botón -->
+    <div class="flex justify-center">
+      <!-- Llamado a la Acción -->
+      <button
+        class="bg-[#4F772D] hover:bg-[#31572C] text-white font-semibold px-5 py-3 rounded-md shadow-lg transition duration-300 flex items-center"
+      >
+        Comenzar Ahora
+        <i
+          class="fa-solid fa-arrow-right ml-2 transition-transform duration-300 transform"
+          style="margin-top: 1px"
+        ></i>
+      </button>
+    </div>
+  </div>
+</section>
