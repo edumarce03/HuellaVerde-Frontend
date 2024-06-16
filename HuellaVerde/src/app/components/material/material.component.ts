@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import AOS from 'aos';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-material',
@@ -8,9 +7,4 @@ import AOS from 'aos';
   templateUrl: './material.component.html',
   styleUrl: './material.component.css',
 })
-export class MaterialComponent implements OnInit {
-  constructor() {}
-  ngOnInit(): void {
-    AOS.init();
-  }
-}
+export class MaterialComponent {}

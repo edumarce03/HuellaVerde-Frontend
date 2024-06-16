@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -9,10 +8,4 @@ import AOS from 'aos';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {
-    AOS.init();
-  }
-}
+export class HomeComponent {}
